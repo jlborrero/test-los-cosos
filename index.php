@@ -6,16 +6,7 @@
     <title>Test</title>
     <link rel="stylesheet" href="css/Style.css">
     <style>
-        span.stars, span.stars span {
-            display: block;
-            background: url(images/stars_blue.png) 0 -25px repeat-x;
-            width: 125px;
-            height: 25px;
-        }
 
-        span.stars span {
-            background-position: 0 0;
-        }
     </style>
     <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript">

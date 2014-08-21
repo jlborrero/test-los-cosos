@@ -96,12 +96,21 @@ a{
     font-weight: bold;
 }
 
-.stars{
-    margin: 5px 0;
-
-}
-
 .enlace:hover{
     cursor: pointer;
 }
 
+.stars{
+    margin: 5px 0;
+
+}
+span.stars, span.stars span {
+    display: block;
+    background: url(../images/stars_blue.png) 0 -25px repeat-x;
+    width: 125px;
+    height: 25px;
+}
+
+span.stars span {
+    background-position: 0 0;
+}
